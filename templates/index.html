@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>MEET Y2 CS Summary</title>
+
+    <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/site.css') }}" rel="stylesheet">
+
+    <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  </head>
+
+  <body>
+
+    <div id="container">
+
+      <div class="text-center">
+        <img src="http://meet.mit.edu/wp-content/uploads/2015/07/home-bg.jpg"
+         id="profile-photo" class="img-circle">
+      </div>
+
+      <h3>What we've done in Y2 CS so far</h3>
+      <div class="alert alert-warning">
+        <p>We're almost halfway through MEET Y2 CS! You will be starting work
+        on the projects soon.</p>
+      </div>
+
+      <div id="container-body">
+        <p>We started off learning about HTML and CSS so that we could make
+        websites. This is called the "frontend", and it's the part of the
+        webapp that your users see when they log on.</p>
+
+        <p>Then, we did learned about relational databases. We connected Python with 
+        databases using something called a package call <a href="https://www.sqlalchemy.org/">SQLAlchemy</a>.
+        Databases store all the information for your webapp.</p>
+
+        <p>After talking about databases, we learned how to build a webserver
+        using Flask. Web servers allow you to create dynamic websites! Each urls of a website
+        trigger a specific function in the backend. The function can retrieve data from the database
+        or just run python code. Then <a href="http://jinja.pocoo.org/">Jinja</a>, the template rendering part of Flask, allows us to render template and pass variable to HTML.</p>
+
+        <p>Now, we're learning JavaScript. We can make dynamic pages that change
+        when we click on things or type data in boxes.</p>
+
+        <p>Technologies that you know:</p>
+      
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Python</li>
+            <li>SQLAlchemy</li>
+            <li>Flask</li>
+            <li>JavaScript</li>
+            <li>jQuery</li>
+        </ul>
+      
+      </div>
+    </div>
+
+  </body>
+</html>
