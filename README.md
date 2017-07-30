@@ -46,5 +46,5 @@ JavaScript code goes inside `$(document).ready(function() {`.
 
 Add code so that when you click on the picture, the text in the box changes
 from "We're almost halfway through MEET Y2 CS! You will be starting work on 
-the projects soon." to "Less than a week left until the Google presentations:
+the projects soon." to "Less than a week left until the Samsung presentations:
 it's project time!"
